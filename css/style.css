@@ -4,13 +4,28 @@ html {
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 4em;
     color: #343231;
 }
 
 p {
     font-style: italic;
     color: #808080;
+}
+
+@media (max-width: 750px) {
+    h1 {
+        font-size: 2em;
+        word-break: break-all;
+    }
+
+    p {
+        word-break: break-all;
+    }
+
+    .page-center {
+        align-items: flex-end !important;
+    }
 }
 
 .page-center {
