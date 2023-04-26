@@ -1,0 +1,32 @@
+html {
+    background-color: #FAF9F6;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 45px;
+    color: #343231;
+}
+
+p {
+    font-style: italic;
+    color: #808080;
+}
+
+.page-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.top-right {
+    object-position: right top;
+    position: fixed;
+    transform: translateX(350%) translateY(-10%)  rotate(230deg);
+}
+
+.top-left {
+    position: fixed;
+    transform: rotate(130deg) translateY(25%);
+}
